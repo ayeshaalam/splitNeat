@@ -63,7 +63,7 @@ function App() {
           : friend
       )
     );
-    setSelectedFriend(null);
+    setSelectedFriend(null); // clear after split
   }
 
   function handleSelection(friend: Friend) {
